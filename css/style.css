@@ -1,0 +1,686 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* start first screen */
+.interes{
+    background: #4C3D74;
+    padding-left: calc(9.6vw + 15.518px);
+}
+
+.navigation{
+    padding-top: calc(1.9vw + 81px);
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    color: #fff;
+}
+
+.mini_title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 103px;
+    font-family: 'Futura';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 139%;
+}
+.silki{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: 'Futura';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 139%;
+    padding-right: 0;
+
+}
+
+.silki span{
+    display: flex;
+    flex-direction: row ;
+}
+
+.main_side{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.first{
+    font-family: 'Futura';
+    font-size: calc(0.5vw + 14px);
+    font-weight: 700;
+    line-height: 139%; 
+    margin-bottom: 19px;
+}
+
+.second{
+    font-family: 'Futura';
+    font-size: calc(2.4vw + 20px);
+    font-weight: 700;
+    line-height: 139%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 29px;
+}
+.third{
+    font-family: 'Futura';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 115%;
+}
+
+.right_side{
+    margin-right: 72px;
+    height: 472px;
+}
+
+.down_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.biolent{
+    width: 320px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 20px 0;
+    background: #A387C4;
+    font-size: 18px;
+    line-height: 118%;
+    color: white;
+    border: 0;
+}
+
+.white{
+    width: 320px;
+    border-radius: 30px ;
+    padding: 20px 0;
+    background: #4C3D74;
+    font-size: 18px;
+    line-height: 118%;
+    color: white;
+    border: 1px solid #A387C4;
+    margin-bottom: 182px;
+}
+
+.right_side2{
+    display: none;
+}
+
+.register{
+    background-color: rgba(0, 0, 0, 0.305);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.register form{
+    padding: 20px 60px;
+    background-color: white;
+}
+.register input{
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+.register input:hover{
+    border-color: #666;
+}
+.register input:focus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.register label{
+    display: block;
+    margin-bottom: 20px;
+}
+.close{
+    text-align: right;
+    align-items: right;
+}
+.violent{
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 320px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 20px 0;
+    background: #A387C4;
+    font-size: 18px;
+    line-height: 118%;
+    color: white;
+    border: 0;
+}
+
+.program{
+    background-color: rgba(0, 0, 0, 0.305);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-left: 350px;
+    padding-right: 350px;
+    justify-content: center;
+    align-items: center;
+    color: #FFDC33;
+    font-size: 30px;
+    display: none;
+}
+.closeDescr {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.closeDescr:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+.closeDescr:active {
+    background-color: #003d99;
+    border-color: #003d99;
+    transform: scale(0.95);
+}
+  
+
+
+@media (max-width:430px) {
+    .silki{
+        display: none;
+    }
+    .title{
+        flex-direction: column;
+    }
+    .down_buttons{
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 27px;
+    }
+    .right_side{
+        display: none;
+    }
+    .right_side2{
+        display: flex;
+        padding-bottom: 107px;
+        width: 250px;   
+        margin-right: 20px;
+    }
+
+}
+/* end first screen */
+/* start second screen */
+.text{
+    margin-left: 323px;
+    margin-top: 167px;
+    margin-bottom: 46px;
+    font-family: 'Futura';
+    font-size: calc(2.4vw + 20px);
+    font-weight: 700;
+    line-height: 139%;
+    color: #504178;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.card{
+    padding: 35px 30px 31px 58px;
+    border: 3px solid #4C3D74;
+    background-color: #F2EEF7;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 123px;
+}
+
+.card p{
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    position: absolute;
+    top: 10%;
+    right: 88%;
+    margin-left: 19px;
+}
+
+.womens{
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    margin-left: 138px;
+    margin-top: 43px;
+}
+
+.energy{
+    font-family: 'Futura';
+    font-size: calc(0.5vw + 14px);
+    font-weight: 700;
+    line-height: 115%;
+    color: #4C3D74;
+}
+
+.women{
+    margin-left: 110px;
+}
+
+
+@media (max-width:430px) {
+    .text{
+        margin-left: 39px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .womens{
+        flex-direction: column;
+        margin-left: 44px;
+    }
+}
+/* end second screen */
+
+/* start third screen */
+.prizes{
+    background: #4C3D74;
+    padding-left: 139px;
+}
+
+.mainH{
+    font-family: 'Futura';
+    font-size: calc(2.4vw + 20px);
+    font-weight: 700;
+    line-height: 139%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 168px;
+}
+.smiles{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    margin-top: 38px;
+}
+.smile p{
+    color: #FFFFFF;
+}
+
+.giftBox{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    margin-top: 38px;
+}
+.box p{
+    color: #FFFFFF;
+}
+
+.describtion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.toptext{
+    margin-top: 31px;
+    margin-bottom: 38px;
+    margin-right: 45px;
+    color: #FFFFFF;
+    width: 661px;
+    height: 120px;
+}
+
+.bottomtext{
+    margin-top: 31px;
+    margin-bottom: 38px;
+    margin-right: 45px;
+    color: #FFFFFF;
+    width: 661px;
+    height: 72px;
+}
+
+.rideeside img{
+    margin-top: 61px;
+    margin-left: 61px;
+    height: 491px;
+}
+
+.bottomside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 159px;
+    margin-bottom: 242px;
+    color: #FFFFFF;
+}
+
+.titles{
+    font-family: 'Futura';
+    font-size: calc(2.4vw + 20px);
+    font-weight: 700;
+    line-height: 139%;
+    color: white;
+}
+.secret{
+    display: none;
+}
+
+@media (max-width:430px) {
+    .prizes{
+        padding-left: 52px;
+    }
+    .smiles{
+        flex-direction: column;
+    }
+    .giftBox{
+        flex-direction: column;
+    }
+    .toptext{
+        margin-top: 35px;
+    }
+    .rideeside img{
+        display: none;
+    }
+    .secret{
+        display: flex;
+        width: 303px;
+    }
+    .bottomside{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+}
+/* end third screen */
+
+/* start four screen */
+.courseProgram{
+    margin-left: 50px;
+}
+
+.courseProgram_wrapper {
+    padding: calc(4.4vw + 23px) calc(4.9vw + 2px) calc(1.3vw + 18px);
+}
+
+.courseProgram_wrapper h3 {
+    font-family: 'Futura';
+    font-size: calc(2.4vw + 20px);
+    font-weight: 700;
+    line-height: 139%; 
+    color: #504178;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 41px;
+}
+.courseProgram_wrapper ol {
+    list-style: none;
+}
+.courseProgram_wrapper ol li {
+    font-size: calc(0.4vw + 14px);
+    padding: 24px 0;
+    border-bottom: solid #A1A1A1;
+}
+
+.bottomsideHero{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+}
+.bigtxtP{
+    display: flex;
+    flex-direction: column;
+    color: #4C3D74;
+    font-family: 'Futura';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 115%;
+}
+
+@media  (max-width:430px){
+    .courseProgram .purple.btnMob {
+        display: block;
+        margin: 34px auto 0;
+    }
+    .bottomsideHero{
+        flex-direction: column;
+    }
+    .bottomsideHero img{
+        width: 215px;
+    }
+}
+/* end four screen */
+/* start five screen */
+.feedback{
+    background-color: #4C3D74;
+    padding-left: 139px;
+}
+
+.hello {
+    margin-bottom: 46px;
+    font-family: 'Futura';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 139%;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    padding-top: 181px;
+}
+
+.feedbacks {
+    display: flex;
+    gap: 30px;
+}
+.feedback1 {
+    background: #F2EEF7;
+    padding: 50px 20px 38px;
+    border-radius: 30px;
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 600px;
+    position: relative;
+    margin-right: 85px;
+}
+
+.feedback1 h3{
+    font-family: 'Futura';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 115%;
+    color: #4C3D74;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.feedback1 button{
+    width: 250px;
+}
+
+.feedback1 p{
+    padding-bottom: 8px;
+}
+
+.feedback1 img{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+}
+
+.giftsYula{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 66px;
+    padding-bottom: 177px;
+}
+
+.giftsYula p{
+    color: #FFFFFF;
+    display: flex;
+    width: 573px;
+    height: 72px;
+}
+@media (max-width: 430px) {
+    .feedback{
+        padding-left: 60px;
+    }
+
+    .feedbacks{
+        flex-direction: column;
+    }
+
+    .feedback1 button{
+        width: 245px;
+        height: 60px;
+        position: absolute;
+        top: 95%;
+    }
+
+    .giftsYula{
+        flex-direction: column;
+    }
+    .giftsYula img{
+        width: 67px;
+        height: 67px;
+        margin-left: 130px;
+        margin-top: 0;
+    }
+    .giftsYula p{
+        width: 314px;
+        height: 120px;
+    }
+
+}
+/* end five screen */
+
+/* start sixth screen */
+
+
+.bottomsideHero p{
+    font-family: 'Futura';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 115%;
+    color:#4C3D74;
+    margin-left: 50px;
+}
+
+/* end sixth screen */
+/* start seventh screen */
+footer{
+    background-color:#251933;
+}
+.InfoFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.firstInfo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    color: #FFFFFF;
+    padding-top: 125px;
+    padding-bottom: 138px;
+}
+.firstInfo p{
+    font-family: 'Futura';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 115%;
+}
+
+.secondInfo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 115%;
+    color:#fff;
+    padding-top: 125px;
+    padding-bottom: 138px;
+    justify-content: space-between;
+}
+
+.thirdInfo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 115%;
+    padding-top: 125px;
+    padding-bottom: 138px;
+}
+
+a{
+    color: white;
+}
+
+@media (max-width: 430px){
+    .InfoFooter{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .firstInfo{
+        padding-left: 40px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .secondInfo{
+        padding-left: 40px;
+        padding-right: 0;
+        padding-bottom: 1px;
+    }
+    .thirdInfo{
+        padding-left: 40px;
+        padding-right: 0;
+    }
+}
+/* end seventh screen */

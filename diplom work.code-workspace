@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "diplomwork",
+			"path": "../../Downloads/diplomwork"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "diplom work"
+	}
+}
