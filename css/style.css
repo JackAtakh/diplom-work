@@ -202,6 +202,7 @@
     border: 2px solid #007bff;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 300px ;
   }
   
 .closeDescr:hover {
